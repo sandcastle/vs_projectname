@@ -13,4 +13,4 @@ projectName('some name'); // some_name
 projectName('noΩmath');   // no_math
 ```
 
-Inpsired by OmniSharp/generator-aspnet#256
+Inpsired by [OmniSharp/generator-aspnet#256](https://github.com/OmniSharp/generator-aspnet/issues/256#issuecomment-119287802)
