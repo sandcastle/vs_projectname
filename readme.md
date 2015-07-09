@@ -1,5 +1,7 @@
 # VS Project Name
 
+[![Build Status](https://travis-ci.org/sandcastle/vs_projectname.svg)](https://travis-ci.org/sandcastle/vs_projectname)
+
 A helper package for sanitizing Visual Studio project names with full
 support for uni code character checking.
 
