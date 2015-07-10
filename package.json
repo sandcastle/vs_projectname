@@ -1,6 +1,6 @@
 {
   "name": "vs_projectname",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Normalizes a Visual Stuio project name",
   "author": "Glenn Morton",
   "main": "index.js",
