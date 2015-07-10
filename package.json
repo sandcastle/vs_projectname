@@ -4,7 +4,6 @@
   "description": "Normalizes a Visual Stuio project name",
   "author": "Glenn Morton",
   "main": "index.js",
-  "readme": "readme.md",
   "scripts": {
     "test": "node ./node_modules/.bin/mocha test/**/*.js"
   },
