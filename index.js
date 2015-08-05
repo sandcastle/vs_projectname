@@ -53,6 +53,8 @@ function isValid(ch){
   var code = ch.charCodeAt(0);
   return is_letter(code)
     || is_digit(code)
+    || (ch === '.')
+    || (ch === '_')
     || is_unicode_connector_punctuation(ch)
     || is_unicode_format(ch)
     || is_unicode_combining_mark(ch)

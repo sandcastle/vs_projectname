@@ -22,4 +22,12 @@ describe('vs_projectname', function(){
     it('should not replace valid unicode characters', function(){
         assert.strictEqual(projectName('some\uFE4Fname'), 'some\uFE4Fname'); // ﹏
     });
+    
+    it('should not replace dots', function(){
+        assert.strictEqual(projectName('Project.Name'), 'Project.Name');
+    });
+    
+    it('should not replace underscore', function(){
+        assert.strictEqual(projectName('Project_Name'), 'Project_Name');
+    });
 });
